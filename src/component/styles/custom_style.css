@@ -1,0 +1,37 @@
+/* Mengubah ukuran kotak deskripsi */
+.custom-description {
+    font-size: 0.8rem; /* Ukuran font untuk kotak deskripsi */
+    padding: 8px; /* Padding dalam kotak deskripsi */
+    margin: 0; /* Menghilangkan margin default */
+  }
+  
+  /* Mengubah ukuran dan tampilan lingkaran ikon */
+  .custom-timeline-element .vertical-timeline-element-icon {
+    width: 24px; /* Ukuran lingkaran ikon */
+    height: 24px; /* Ukuran lingkaran ikon */
+    line-height: 24px; /* Menyelaraskan ikon secara vertikal */
+    font-size: 20px; /* Ukuran ikon di dalam lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
+    background: #e91e63; /* Warna latar belakang lingkaran ikon (ganti sesuai kebutuhan) */
+    color: #fff; /* Warna ikon */
+  }
+
+  .vertical-timeline-element-title {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .vertical-timeline-element-subtitle {
+    color: black;
+    font-size: 15px;
+  }
+  
+  /* Mengubah ukuran kotak deskripsi dalam elemen timeline */
+  .custom-timeline-element .vertical-timeline-element-content {
+    font-size: 0.8rem; /* Ukuran font dalam kotak deskripsi */
+    padding: 10px; /* Padding dalam kotak deskripsi */
+    border-radius: 6px; /* Sudut melengkung untuk kotak deskripsi */
+    background: #f9f9f9; /* Warna latar belakang kotak deskripsi (ganti sesuai kebutuhan) */
+  }
+  
